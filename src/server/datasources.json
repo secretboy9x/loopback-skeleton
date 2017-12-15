@@ -1,0 +1,12 @@
+{
+  "postgres": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "",
+    "database": "first-loopback",
+    "password": "admin",
+    "name": "postgres",
+    "user": "postgres",
+    "connector": "postgresql"
+  }
+}
