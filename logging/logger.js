@@ -13,4 +13,4 @@ process.on('uncaughtException', (error) => {
   logger.loggers.get('exception').error(error);
 });
 
-export default logger;
+module.exports = logger;

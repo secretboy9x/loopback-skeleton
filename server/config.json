@@ -1,12 +1,9 @@
 {
-  "restApiRoot": "/api",
-  "host": "localhost",
-  "port": 3000,
   "remoting": {
     "context": false,
     "rest": {
       "handleErrors": false,
-      "normalizeHttpPath": false,
+      "normalizeHttpPath": true,
       "xml": false
     },
     "json": {

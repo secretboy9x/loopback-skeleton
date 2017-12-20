@@ -15,6 +15,7 @@ app.start = () => {
       let explorerPath = app.get('loopback-component-explorer').mountPath;
       appLogger.info('Browse your REST API at %s%s', baseUrl, explorerPath);
     }
+    appLogger.info(`Running with ${process.env.NODE_ENV}`);
   });
 };
 

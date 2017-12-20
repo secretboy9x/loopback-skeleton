@@ -7,6 +7,10 @@
     "password": "admin",
     "name": "postgres",
     "user": "postgres",
-    "connector": "postgresql"
+    "connector": "postgresql",
+    "min": 5,
+    "max": 200,
+    "idleTimeoutMillis": 60000
   }
 }
+  

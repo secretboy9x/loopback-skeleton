@@ -1,0 +1,10 @@
+{
+    "dev": {
+      "driver": "pg",
+      "user": "postgres",
+      "password": "admin",
+      "host": "localhost",
+      "database": "first-loopback",
+      "schema": "public"
+    }
+}

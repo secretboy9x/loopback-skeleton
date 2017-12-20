@@ -13,7 +13,7 @@
       "./mixins"
     ]
   },
-  "CoffeeShop": {
+  "Classes": {
     "dataSource": "postgres",
     "public": true
   }
