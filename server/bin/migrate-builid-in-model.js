@@ -9,6 +9,7 @@ ds.isActual(lbTables, function(err, actual) {
         throw er;
       }
       console.log(`Loopback tables [${lbTables}] created in `, ds.adapter.name);
+      ds.disconnect();
     });
   }
 });
