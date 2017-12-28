@@ -1,2 +1,2 @@
-module.exports = (Customuser) => {
+module.exports = (CustomUser) => {
 };
