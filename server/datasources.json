@@ -1,7 +1,7 @@
 {
   "postgres": {
     "host": "localhost",
-    "port": 5432,
+    "port": 5433,
     "url": "",
     "database": "first-loopback",
     "password": "admin",
@@ -13,4 +13,3 @@
     "idleTimeoutMillis": 60000
   }
 }
-  

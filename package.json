@@ -11,6 +11,7 @@
     "dev": "cross-env NODE_ENV=development nodemon --exec babel-node .",
     "posttest": "npm run lint && nsp check",
     "build": "babel src -d dist --source-maps",
+    "premigrate": "babel-node server/build-in/migrate-build-in-model.js",
     "migrate": "node ./node_modules/db-migrate/bin/db-migrate --config ./migrations/database.json"
   },
   "pre-commit": [
